@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
  * print_int - function to print integer
  * @args: argument
@@ -88,4 +90,3 @@ _putchar(last + '0');
 
 return (i);
 }
-
