@@ -8,7 +8,7 @@
 
 int print_hexad_extra(unsigned long int number)
 {
-long int i; 
+long int i;
 long int count = 0;
 long int *array;
 unsigned int a = number;

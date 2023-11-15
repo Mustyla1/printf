@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*print_unsigned - function to print integer
+*print_unsigned_int - function to print integer
  * @args: argument
  * Return: integer
  */
@@ -19,7 +19,7 @@ _putchar('-');
 number = -number;
 a = -a;
 last = -last;
-i++;    
+i++;
 }
 if (number  > 0)
 {
@@ -33,7 +33,7 @@ while (exp > 0)
 {
 digit = number / exp;
 _putchar(digit + '0');
-number = number - (digit * exp);
+number = number - (digit *exp);
 exp = exp / 10;
 i++;
 }

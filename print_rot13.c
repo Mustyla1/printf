@@ -7,14 +7,14 @@
 */
 int print_rot13(va_list args)
 {
-int b; 
-int c; 
+int b;
+int c;
 int count = 0;
 int k = 0;
 char *a = va_arg(args, char*);
 char d[] = {"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"};
 char e[] = {"nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM"};
- 
+
 if (a == NULL)
 a = "(null)";
 for (b = 0; a[b]; b++)

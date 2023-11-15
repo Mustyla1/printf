@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_HEXAD_extra - function to convert integer to hexadecimal with uppercase for exclusive string
+ * print_HEXAD_extra - function to convert integer to hexadecimal
  * @number: argument
  * Return: count
  */
