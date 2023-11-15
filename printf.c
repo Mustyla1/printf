@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdarg.h>
 
 /**
  * _printf - selects the correct function to print
@@ -19,6 +21,14 @@ length = print_formatted_string(format, args);
 va_end(args);
 return (length);
 }
+
+/**
+ * Definition of checker struct
+ */
+typedef struct checker {
+    const char *id;
+    int (*functions)(va_list);
+} checker;
 
 /**
  * print_formatted_string - prints formatted string

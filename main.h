@@ -1,3 +1,7 @@
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdlib.h>
+#include <stdio.h>
 #ifndef MAIN_H
 #define MAIN_H
 
@@ -6,7 +10,7 @@ int print_char(va_list args);
 int print_string(va_list args);
 int _strlength(char *a);
 int _strlengthc(char *a);
-int print_37(void);
+int print_37(va_list args);
 int print_int(va_list args);
 int print_dec(va_list args);
 int print_binary(va_list args);
@@ -23,5 +27,6 @@ int print_rot13(va_list args);
 int _printf(const char *format, ...);
 int rev_string(char *s);
 int *_strcpy(char *dest, char *src);
+int print_formatted_string(const char *format, va_list args);
 
 #endif
